@@ -1,0 +1,44 @@
+# =========
+# == IDE ==
+# =========
+/.vs/
+/.idea/
+*.user
+
+# ===========
+# == Build ==
+# ===========
+/bin/
+/obj/
+*.csproj
+*.sln
+
+# ===========
+# == Unity ==
+# ===========
+/Library/
+/Temp/
+/[Bb]uild/
+/[Bb]uilds/
+
+# ==================
+# == Addressables ==
+# ==================
+/ServerData/
+/HostData/
+*/AddressableAssetsData/Android*
+*/AddressableAssetsData/Windows*
+
+
+# ================
+# == Exclusions ==
+# ================
+!*.obj
+!*.dll
+
+
+# ==================
+# == Miscelaneous ==
+# ==================
+*/Plugins/Editor/JetBrains*
+Assets/StreamingAssets/build_info
